@@ -3,7 +3,7 @@ package com.tap.algos.Quicksort;
 public class QuicksortMain {
     private static int[] sorting(int[] numbers){
             int pivot;
-            int pivotIndex = 0;
+            int pivotIndex;
 
             for (int i = 0; i < numbers.length; ++i) {
                 pivot = numbers[i];
